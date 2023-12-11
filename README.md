@@ -1,1 +1,1 @@
-# Basit-Sosyal-Medya-kon-Animasyonu
+# Basit-Sosyal-Medya-ikon-Animasyonu

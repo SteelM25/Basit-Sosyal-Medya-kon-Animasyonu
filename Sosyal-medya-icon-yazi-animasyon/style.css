@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: black;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 5px;
+    transition: all .4s;
+}
+.yazi{
+    font-size: 16px;
+    display: inline-block;
+    transform: translateY(50px);
+    transition: all .4s;
+    color: #fff;
+    font-family: 'Caveat', cursive;
+    letter-spacing: 5px;
+    opacity: 0;
+}
+.link{
+    margin-left: 15px;
+    width: 50px;
+}
+
+.link:hover .yazi{
+    transform:scale(1.4);
+    transform: translate(0);
+    opacity: 1;
+    letter-spacing: normal;
+}
+.link:hover .icon{
+    transform: scale(1.4);
+    color: #fff;
+}
+.fa-facebook{
+    color:  rgb(1, 101, 225);
+}
+.fa-instagram{
+    color: purple;
+}
+.fa-linkedin{
+    color: rgb(10, 102, 194);
+}
+.fa-youtube{
+    color: rgb(205, 32, 31);
+}
